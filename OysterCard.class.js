@@ -35,4 +35,31 @@ class OysterCard {
         this.points = [];
     }
 
+    /**
+     * Sets Credit in the Card
+     * @param  float  amount
+    */
+    setCredit(amount) {
+        if (typeof(amount) === 'number') {
+            this.credit += amount;
+        } else {
+            return 0;
+        }
+        return this.credit;
+    }
+
+    /**
+     * Reads Credit from the Card
+    */
+    getCredit() {
+        return this.credit;
+    }
+    
+    /*
+     * Sets Debit in the Card
+    */
+    setDebit() {
+        (this.credit >= this.fare ? this.credit -= this.fare : process.exit(console.log('Not enough credit!')));
+    }
+
 }
