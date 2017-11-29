@@ -20,6 +20,7 @@ The system should favour the customer where more than one fare is possible for a
 This code uses the following data:
 
 **Stations and zones:**
+
 | Station | Zone(s) |
 | ------ | ------ |
 | Holborn | 1 |
@@ -28,6 +29,7 @@ This code uses the following data:
 | Hammersmith | 2 |
 
 **Fares:**
+
 | Journey | Fares |
 | ------ | ------ |
 | Anywhere in Zone 1 | £2.50 |
