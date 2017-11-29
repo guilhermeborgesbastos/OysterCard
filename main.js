@@ -34,3 +34,6 @@ card.enterStation(OysterCard.STATIONS.EarlsCourt);
 card.setNewJourney(OysterCard.STATIONS.Hammersmith);
 // exit station
 card.exitStation();
+
+var credit = card.getCredit();
+console.log('Remaning Credit: £', credit);
