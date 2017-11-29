@@ -29,4 +29,10 @@ const STATIONS = {
 
 class OysterCard {
 
+    constructor (credit = 0) {
+        this.credit = credit;
+        this.fare = 0;
+        this.points = [];
+    }
+
 }
