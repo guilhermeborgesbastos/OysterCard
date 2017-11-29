@@ -1,6 +1,14 @@
 # Oyster Card System 
 > A simple version of Oyster Card System from London City developed using Javascript
 
+## Installation
+Follow these steps to setup the project
++ Clone the repository into a new folder in your machine;
+    * Make sure you have the Git installed [Download](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git);
+    * ```git clone https://github.com/guilhermeborgesbastos/OysterCard.git```
++ Install and configure the dependencies;
+    * Open the Command Prompt and run: ```npm install```;
+
 ## The problem
 You are required to model the following fare card system which is a limited version of London’s Oyster card system. At the end, you should be able to demonstrate a user loading a card with £30, and taking the following trips, and then viewing the balance.
 ```
@@ -40,3 +48,8 @@ This code uses the following data:
 | Any bus journey | £1.80 |
 
 *The maximum possible fare is therefore £3.20.*
+
+## Test Driven Development results
+The application was applied to several tests:
+
+![](https://ibin.co/w800/3izOGky6R4qh.png)
