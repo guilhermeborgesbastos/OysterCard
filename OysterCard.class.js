@@ -63,3 +63,10 @@ class OysterCard {
     }
 
 }
+
+Object.defineProperty(OysterCard, 'STATIONS', {
+  value: STATIONS,
+  writable: false // makes the property read-only
+});
+
+module.exports = OysterCard;
